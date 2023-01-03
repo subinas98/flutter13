@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'Screens/Note_list.dart';
 
 void main() => runApp(MyApp());
 
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: "Todo App",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primaryColor: Colors.yellow),
-      home: MyNotes(),
+      home: Note_list(),
     );
   }
 }
